@@ -8,4 +8,4 @@ const url = IS_PRO
 
 setInterval(() => {
   axios.get(url).then((res) => console.log(res.data));
-}, 5000);
+}, 300000);
